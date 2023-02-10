@@ -1,0 +1,30 @@
+{
+    "name": "hodiny",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
+        "pxt-kitronik-klimate": "github:kitronikltd/pxt-kitronik-klimate#v1.0.2",
+        "pxt-kitronik-rtc": "github:kitronikltd/pxt-kitronik-rtc#v1.0.2",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
